@@ -27,15 +27,15 @@ const Categories = [
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_2,
-        gender:'men'
+        image:product_item_12,
+        gender:'kids'
     },
     {
         id:3,
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_3,
+        image:product_item_2,
         gender:'men'
     },
     {
@@ -43,7 +43,7 @@ const Categories = [
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_4,
+        image:product_item_3,
         gender:'men'
     },
     {
@@ -51,15 +51,15 @@ const Categories = [
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_5,
-        gender:'men'
+        image:product_item_7,
+        gender:'women'
     },
     {
         id:6,
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_6,
+        image:product_item_5,
         gender:'men'
     },
     {
@@ -67,11 +67,19 @@ const Categories = [
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_7,
-        gender:'women'
+        image:product_item_6,
+        gender:'men'
     },
     {
         id:8,
+        name:'U.S Polo Asnn.',
+        about:'Lorem ipsum dolor sit...',
+        price:250,
+        image:product_item_4,
+        gender:'men'
+    },
+    {
+        id:9,
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
@@ -79,7 +87,7 @@ const Categories = [
         gender:'women'
     },
     {
-        id:9,
+        id:10,
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
@@ -87,7 +95,7 @@ const Categories = [
         gender:'men'
     },
     {
-        id:10,
+        id:11,
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
@@ -95,19 +103,11 @@ const Categories = [
         gender:'women'
     },
     {
-        id:11,
-        name:'U.S Polo Asnn.',
-        about:'Lorem ipsum dolor sit...',
-        price:250,
-        image:product_item_11,
-        gender:'kids'
-    },
-    {
         id:12,
         name:'U.S Polo Asnn.',
         about:'Lorem ipsum dolor sit...',
         price:250,
-        image:product_item_12,
+        image:product_item_11,
         gender:'kids'
     }
 

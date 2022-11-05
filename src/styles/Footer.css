@@ -1,0 +1,17 @@
+.about-section{
+    background-color: rgb(232, 229, 229);
+    margin-top: 70px;
+    border-top: 5px solid red;
+}
+
+
+    /* Social */
+
+.bi:hover{
+    color: #CC051C;
+    cursor: pointer;
+}
+.bi{
+    text-decoration: none;
+    color: #404043;
+}

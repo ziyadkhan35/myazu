@@ -1,0 +1,193 @@
+.all-navbar-container{
+    height: 80px;
+    background-color: #F9F9F9;
+    padding: 0;
+    align-items: flex-end;
+    z-index: 100;
+    box-shadow: 1px 0 10px  rgb(107, 105, 105);
+}
+.filter-ico-btn{
+    border: none;
+    background-color: transparent;
+}
+.navbar-hover-box{
+    display: none;
+    position: absolute;
+    top: 77.5px;
+    left: 112px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navbar-hover-container:hover .navbar-hover-box{
+    display: block;
+    transition-duration: 2s;
+    z-index: 100;
+}
+
+/* Logo */
+.myazu-logo{
+    font-family: 'Titillium Web', sans-serif;
+    color: black !important;   
+    text-decoration: none;
+}
+
+
+
+.navbar-select-button{
+    padding: 20px;
+    color: rgb(31, 29, 29);
+    border-bottom: 5px solid transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+.navbar-hover-container:hover .navbar-select-button{
+    border-bottom: 5px solid rgb(31, 29, 29);
+}
+.navbar-select-button:not(last){
+    margin-right: 10px;
+}
+
+
+.card-link-color >a{
+    color: rgb(38, 37, 37);
+    text-decoration: none;
+}
+.card-link-color >a:hover{
+    color: gray;
+}
+.hover-images-sub-text{
+    border-bottom: 5px solid rgb(51, 50, 50);
+    padding: 5px;
+    margin-right: 5px;
+    color: rgb(51, 50, 50);
+}
+
+
+
+.pale{
+    display: none;
+    left: 0;
+    top: 80px;
+    position: absolute;
+    width: 1400px;
+    height: 3500px;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -100;
+}
+.navbar-hover-container:hover .pale{
+    display: block;
+}
+.container-shadow{
+    box-shadow: 0px 0px 0px  500px rgba(0, 0, 0, .5);
+    z-index: -100;
+}
+
+
+
+/* Form  */
+.form-for-navbar{
+    width: 320px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(223, 220, 220);
+}
+.search-input-for-navbar{
+    border: none;
+    width: 100%;
+    margin-left: 5px;
+    outline: none;
+    background-color: transparent;
+}
+.navbar_icon_text{
+    color: #413F42;
+}
+.navbar_icon{
+    color: #413F42;
+}
+.ni-1:hover{
+    color: #0F0E0E;
+}
+.ni-2:hover{
+    color: #B3541E;
+}
+.ni-3:hover{
+    color: #FF0000  ;
+}
+
+
+
+
+@media screen and (max-width:992px){
+    .navbar-lg{
+        display: none;
+    }
+    .nnn{
+        position: absolute;
+        top: 80px;
+    }
+}
+
+.nnn{
+    display: none;
+    z-index: 100;
+    overflow-y: auto;
+    max-height: 90%;
+    height: 100%;
+    position: fixed;
+}
+.btn-filter-responsive{
+    border: none;
+    background-color: transparent;
+    color: #B3541E;
+}
+@media screen and (min-width:992px){
+    .navbar-sm{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:992px){
+    .container-shadow{
+        box-shadow: none;
+    }
+    #navbarSupportedContent{
+        background-color: #F9F9F9;
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 0;
+        top: 80px;
+        transition: .4s;
+        flex-wrap: wrap;
+        max-height: 100%;
+        overflow-y: auto;
+    }
+    
+    .navbar-hover-box{
+        width: 100%;
+    }
+    .navbar-hover-box{
+        z-index: 1;
+        left: 0;
+    }
+
+    .navbar-nav-scroll{
+        overflow-y: auto;
+        max-height: 100% !important;
+    }
+    
+    
+}

@@ -1,0 +1,131 @@
+.hero-foot{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index: -1;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 470px;
+    background-color: #CC051C;
+    z-index: -30;
+    margin-top: 30px;
+}
+.greeting{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #E0F5FF;
+    font-size: 78px;
+    padding:  30px 10px 0 0;
+    text-shadow: 7px 6px 20px rgba(0, 0, 0, .3);
+}
+@media screen and (min-width:576px) and (max-width:950px) {
+    .greeting{
+        font-size: 50px;
+    }
+}
+@media screen and  (min-width:445px) and (max-width:600px) {
+    .greeting{
+        font-size: 44px;
+    }
+}
+@media screen and  (min-width:310px) and (max-width:445px) {
+    .greeting{
+        font-size: 30px;
+    }
+}
+@media screen and  (max-width:310px) {
+    .greeting{
+        font-size: 24px;
+    }
+}
+.greeting-par{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    width: 1000px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+
+
+
+
+.promotion-brand{
+    width: 110px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.nike_promotion{
+    width: 130p;
+}
+.promotion-sub-box{
+    background-color: #FAFDFF;
+    color: #333F48;
+}
+.shop-now{
+    border-bottom: 5px solid #333F48;
+    text-decoration: none;
+    color: #333F48;
+    cursor: pointer;
+}
+.promotion-box{
+    background-color: #2e3338;
+    z-index: -20;
+}
+.ticket-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cb0d24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1200px){
+    .promotion-sub-box{
+        background-color: transparent;
+        color: #FAFDFF;
+        text-shadow: 0 0 1px #fff,0 0 .5px #fff,0 0 19px #fff;
+        margin-top:200px;
+    }
+    
+    .shop-now{
+        color: rgb(242, 215, 215);
+        text-shadow: 0 0 1px #fff,0 0 .5px #fff,0 0 19px #fff;
+        border-bottom-color: #E0F5FF;
+        border-bottom: 3px solid #eff1f3;
+    }
+}
+@media screen and (min-width:438px) and (max-width:1200px){
+    .promotion-brand{
+        width: 90px ;
+    }
+}
+@media screen and (min-width:436px) and (max-width:438px){
+    .promotion-brand{
+        width: 85px ;
+    }
+}
+@media screen and  (min-width:356px) and (max-width:436px){
+    .promotion-brand{
+        width: 70px ;
+    }
+}
+
+@media screen and  (max-width:356px){
+    .promotion-brand{
+        width: 60px ;
+    }
+}
+
+
+
+.main-container{
+    margin-top: 110px;
+}

@@ -15,7 +15,7 @@ const Main = () => {
     <div>
         <div className="main-container container mb-3">
             <div className="row justify-content-between">
-                <div className="col-6 col-sm-4">
+                <div className="col-6 col-sm-4 bg-info">
                     <a href="/" className='fw-bold'><i class="bi bi-geo-alt-fill me-2 fs-5"></i>Find a Store</a>
                 </div>
                 <div className="col-4 text-end">
